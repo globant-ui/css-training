@@ -1,6 +1,6 @@
 #CSS Trainings, Tips and Best Practices
 
-This is the CSS training and best practices repository for Globant Mobile Studio. Here you'll find an index with snippets, coments, common practices, explanations, video tutorials and so much more.
+This is the CSS training and best practices repository for Globant Mobile Studio. Here you'll find an index with snippets, comments, common practices, explanations, video tutorials and so much more.
 
 ## Index
 
