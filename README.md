@@ -5,11 +5,13 @@ This is the CSS training and best practices repository for Globant Mobile Studio
 ## Index
 
 * CSS Selectors
-    * [Id and class selectors](basic/css-selectors/id-class-selectors.md)
-    * [Ancestor selectors](basic/css-selectors/ancestor-selector.md)
-    * [Direct ancestor selectors](basic/css-selectors/direct-ancestor-selector.md)
-    * [Comparing ancestor selectors](basic/css-selectors/comparing-ancestor-selectors.md)
-    * [Siblings selectors](basic/css-selectors/siblings-selectors.md)
+    * [Id and class selectors](css-selectors/id-class-selectors.md)
+    * [Ancestor selectors](css-selectors/ancestor-selector.md)
+    * [Direct ancestor selectors](css-selectors/direct-ancestor-selector.md)
+    * [Comparing ancestor selectors](css-selectors/comparing-ancestor-selectors.md)
+    * [Siblings selectors](css-selectors/siblings-selectors.md)
+* Box model
+    * [Box sizing differences](box-model/box-sizing-differences.md)
 
 ## Contributing
 
