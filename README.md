@@ -5,6 +5,7 @@ This is the CSS training and best practices repository for Globant Mobile Studio
 ## Index
 
 * CSS Selectors
+    * [All elements selector](css-selectors/all-elements-selector.md)
     * [Id and class selectors](css-selectors/id-class-selectors.md)
     * [Ancestor selectors](css-selectors/ancestor-selector.md)
     * [Direct ancestor selectors](css-selectors/direct-ancestor-selector.md)
