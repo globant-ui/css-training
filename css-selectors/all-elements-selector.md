@@ -1,4 +1,4 @@
-# Snippet title
+# All selector
 
 ## Info
 
@@ -40,8 +40,6 @@ ul * {
 ```
 
 ## Explanation
-
-### Bit 1
 
 `*` is the all selector. This rule will apply the `1px solid red` border to every element in the page. The second rule will apply a `1p solid blue` border to all the descendants of the `ul`.
 
