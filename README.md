@@ -16,6 +16,8 @@ This is the CSS training and best practices repository for Globant Mobile Studio
     * [Box sizing differences](box-model/box-sizing-differences.md)
 * Alignment
     * [Vertical centering techniques](alignment/vertical-centering-techniques.md)
+* BEM
+    * [Modal example](BEM/modal.md)
 
 ## Contributing
 
