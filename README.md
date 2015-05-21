@@ -11,6 +11,8 @@ This is the CSS training and best practices repository for Globant Mobile Studio
     * [Direct ancestor selectors](css-selectors/direct-ancestor-selector.md)
     * [Comparing ancestor selectors](css-selectors/comparing-ancestor-selectors.md)
     * [Siblings selectors](css-selectors/siblings-selectors.md)
+* CSS Properties
+    * [Position](positioning/positioning.md)
 * Box model
     * [Box model representation](box-model/representation.md)
     * [Box sizing differences](box-model/box-sizing-differences.md)
