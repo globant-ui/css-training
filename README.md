@@ -19,6 +19,8 @@ This is the CSS training and best practices repository for Globant Mobile Studio
 * Alignment
     * [Vertical centering techniques](alignment/vertical-centering-techniques.md)
     * [Centering the unknown](alignment/centering-the-unknown.md)
+* OOCSS
+    * [What is it?](oocss/what.md)
 * BEM
     * [Modal example](BEM/modal.md)
 * Stacking Context
