@@ -60,3 +60,7 @@ There are a couple of things happening in these examples. Let's go through all o
 `#block2` has 2 new stacking context: one it's created on `.overlay`, since it has a `transform` property other than `none` and the other one it's created on `span.below` (the same as the previous example). This means that the `span.below` stacking context will be inside the `.overlay`stacking context (because it's inside in the DOM) so the `span.below` stacking context will **never** be able to be placed below the `.overlay`stacking context.
 
 `#block3` has 2 new stacking context: one it's created on `span.below` since it has a `transform` property other than `none` and the other one it's **also** created on `span.below` since it's relatively positioned and it has a `z-index` other than `auto`. But, since both new stacking context and the `.overlay` element belong to the same stacking context (`html` element), they can placed below it.
+
+## Credits
+
+Andres Sainz de Aja - andres.sainz@globant.com
