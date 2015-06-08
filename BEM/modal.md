@@ -1,4 +1,4 @@
-# Vertical centering techniques
+# BEM Modal example
 
 ## Info
 
