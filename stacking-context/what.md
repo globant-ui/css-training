@@ -20,7 +20,7 @@ elements with -webkit-overflow-scrolling set to "touch"
 
 ## Let's see it with some examples
 
-** Stacking context on opacity**
+**Stacking context on opacity**
 
 __Demo__: http://codepen.io/asainz/pen/YXGQJW  
 __Gist__: https://gist.github.com/asainz/d45f64b7637c043c66b0  
@@ -31,7 +31,7 @@ A child with `opacity: 1` will be 100% opaque. A child with `opacity:.5` will be
 
 A child will get as opaque/dimmed as its parent lets it. If a `div` has is `opacity:.5` and its child is `opacity:1`, the child itself will be totally opaque, but its parent is half opaque, so 50% is as opaque as the child will get. It can't be more that 50%, because it cant't escape its stacking context.
 
-** Stacking context on z-index**
+**Stacking context on z-index**
 
 __Demo__: http://codepen.io/asainz/pen/XbjapJ  
 __Gist__: https://gist.github.com/asainz/e3fe53972f24e46e39df  
@@ -40,7 +40,7 @@ In this case, the stacking context works in the same way as in the previous exam
 
 If you have two sibling divs, one `z-index: 1` and the other `z-index:2`, none of the first `div` children will be on top of the second `div`, no matter what z-index they have. That's because the stacing context of the first `div` has a lower `z-index` than the second one, so the children stacking contexts can't surpass that.
 
-** Stacking context on transform **
+**Stacking context on transform**
 
 __Demo__: http://codepen.io/asainz/pen/EjgvGN  
 __Gist__: https://gist.github.com/asainz/88de386807d59da0d9e7  
