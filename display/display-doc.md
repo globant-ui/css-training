@@ -24,4 +24,4 @@ Much like a block element, but it is affected by width and height.
 
 ### table and table-cell
 
-his values exist mainly to force elements other than table elements to behave as such.
+this values exist mainly to force elements other than table elements to behave as such.
