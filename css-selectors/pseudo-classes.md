@@ -14,7 +14,7 @@ It can be used to:
 - Style an element when a user mouses over it
 - Style visited and unvisited links differently
 
-#### All the pseudo classes
+## All the pseudo classes
 
 | Name | example         | description |
 | ------------- | ----------- | ----------- |
@@ -51,7 +51,7 @@ It can be used to:
 |:visited	|a:visited	|Selects all visited links
 
 
-#### Code example
+## Code example
 
     /* set unvisited link to blue*/
     a:link {
