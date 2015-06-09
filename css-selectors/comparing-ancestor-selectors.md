@@ -3,7 +3,8 @@
 ## Info
 
 __Demo__: http://codepen.io/asainz/pen/KwWYyV  
-__Gist__: https://gist.github.com/asainz/69ded22a952b62c0297a
+__Gist__: https://gist.github.com/asainz/69ded22a952b62c0297a  
+__Screencast__: https://www.youtube.com/watch?v=gRWbt_Seas0
 
 ## Code
 
