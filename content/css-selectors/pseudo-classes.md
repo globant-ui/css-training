@@ -1,10 +1,5 @@
-# Pseudo classes 
+# Pseudo classes
 
-## Info
-
-__Demo__: http://codepen.io/mvargas21/pen/MwmXYP
-
-__Gist__: https://gist.github.com/souichi6666/b22ec72fbb5379bb8386
 ## Description
 
 A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
@@ -53,18 +48,25 @@ It can be used to:
 
 ## Code example
 
-    /* set unvisited link to blue*/
-    a:link {
-        color: blue;
-    }
-    /* set visited link to red */
-    a:visited {
-        color: red;
-    }
-    /* set on mouse over yellow */
-    a:hover {
-        color: yellow;
-    }
+```css
+/* set unvisited link to blue*/
+a:link {
+    color: blue;
+}
+/* set visited link to red */
+a:visited {
+    color: red;
+}
+/* set on mouse over yellow */
+a:hover {
+    color: yellow;
+}
+```
+
+## Info
+
+__Demo__: http://codepen.io/mvargas21/pen/MwmXYP  
+__Gist__: https://gist.github.com/souichi6666/b22ec72fbb5379bb8386
 
 ## Credits
 

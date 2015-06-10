@@ -2,11 +2,6 @@
 
 parent-child relation is denoted with an space between the element/classes/ids
 
-## Info
-
-__Demo__: http://codepen.io/asainz/pen/LEWzOw  
-__Gist__: https://gist.github.com/asainz/54bb476dd18b5fbba47a
-
 ## Code
 
 ```html
@@ -25,6 +20,11 @@ __Gist__: https://gist.github.com/asainz/54bb476dd18b5fbba47a
   color: tomato;
 }
 ```
+
+## Info
+
+__Demo__: http://codepen.io/asainz/pen/LEWzOw  
+__Gist__: https://gist.github.com/asainz/54bb476dd18b5fbba47a
 
 ## Credits
 
