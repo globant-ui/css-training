@@ -5,28 +5,28 @@ This is the CSS training and best practices repository for Globant Mobile Studio
 ## Index
 
 * CSS Selectors
-    * [All elements selector](css-selectors/all-elements-selector.md)
-    * [Id and class selectors](css-selectors/id-class-selectors.md)
-    * [Ancestor selectors](css-selectors/ancestor-selector.md)
-    * [Direct ancestor selectors](css-selectors/direct-ancestor-selector.md)
-    * [Comparing ancestor selectors](css-selectors/comparing-ancestor-selectors.md)
-    * [Siblings selectors](css-selectors/siblings-selectors.md)
-    * [Grouping selectors](css-selectors/grouping-selectors.md)
+    * [All elements selector](content/css-selectors/all-elements-selector.md)
+    * [Id and class selectors](content/css-selectors/id-class-selectors.md)
+    * [Ancestor selectors](content/css-selectors/ancestor-selector.md)
+    * [Direct ancestor selectors](content/css-selectors/direct-ancestor-selector.md)
+    * [Comparing ancestor selectors](content/css-selectors/comparing-ancestor-selectors.md)
+    * [Siblings selectors](content/css-selectors/siblings-selectors.md)
+    * [Grouping selectors](content/css-selectors/grouping-selectors.md)
 * CSS Properties
-    * [Position](positioning/positioning-doc.md)
-    * [Display](display/display-doc.md)
+    * [Position](content/positioning/positioning-doc.md)
+    * [Display](content/display/display-doc.md)
 * Box model
-    * [Box model representation](box-model/representation.md)
-    * [Box sizing differences](box-model/box-sizing-differences.md)
+    * [Box model representation](content/box-model/representation.md)
+    * [Box sizing differences](content/box-model/box-sizing-differences.md)
 * Alignment
-    * [Vertical centering techniques](alignment/vertical-centering-techniques.md)
-    * [Centering the unknown](alignment/centering-the-unknown.md)
+    * [Vertical centering techniques](content/alignment/vertical-centering-techniques.md)
+    * [Centering the unknown](content/alignment/centering-the-unknown.md)
 * OOCSS
-    * [What is it?](oocss/what.md)
+    * [What is it?](content/oocss/what.md)
 * BEM
-    * [Modal example](BEM/modal.md)
+    * [Modal example](content/BEM/modal.md)
 * Stacking Context
-    * [What is it?](stacking-context/what.md)
+    * [What is it?](content/stacking-context/what.md)
 
 ## Contributing
 
