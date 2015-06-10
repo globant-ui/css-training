@@ -2,8 +2,8 @@
 
 * [Basic Level](content/basic-level.md)
     * [CSS Properties](content/css-properties/README.md)
-        * [Position](content/positioning/positioning-doc.md)
-        * [Display](content/display/display-doc.md)
+        * [Position](content/css-properties/positioning.md)
+        * [Display](content/css-properties/display.md)
     * [CSS selector](content/css-selectors/README.md)
         * [All elements selector](content/css-selectors/all-elements-selector.md)
         * [Id and class selectors](content/css-selectors/id-class-selectors.md)

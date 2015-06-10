@@ -13,8 +13,8 @@ This is the CSS training and best practices repository for Globant Mobile Studio
     * [Siblings selectors](content/css-selectors/siblings-selectors.md)
     * [Grouping selectors](content/css-selectors/grouping-selectors.md)
 * CSS Properties
-    * [Position](content/positioning/positioning-doc.md)
-    * [Display](content/display/display-doc.md)
+    * [Position](content/css-properties/positioning.md)
+    * [Display](content/css-properties/display.md)
 * Box model
     * [Box model representation](content/box-model/representation.md)
     * [Box sizing differences](content/box-model/box-sizing-differences.md)
