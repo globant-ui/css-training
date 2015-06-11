@@ -1,10 +1,5 @@
 # All selector
 
-## Info
-
-__Demo__: http://codepen.io/DarkThrone/pen/emQEOj
-__Gist__: https://gist.github.com/DarkThrone/9eaf390ed4830ef8d698
-
 ## Description
 
 The all selector (`*`) applies a rule to all the descendants of the preceding rule, if any is given, otherwise, it applies to all the html descendants.
@@ -43,8 +38,11 @@ ul * {
 
 `*` is the all selector. This rule will apply the `1px solid red` border to every element in the page. The second rule will apply a `1p solid blue` border to all the descendants of the `ul`.
 
+## Info
+
+__Demo__: http://codepen.io/DarkThrone/pen/emQEOj  
+__Gist__: https://gist.github.com/DarkThrone/9eaf390ed4830ef8d698
+
 ## Credits
 
-email: Gerónimo Garcia Sgritaa <geronimo.garcia@globant.com>
-twitter: @geronimogarcia
-
+Gerónimo Garcia Sgritaa <geronimo.garcia@globant.com>  

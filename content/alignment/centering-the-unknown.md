@@ -2,11 +2,6 @@
 
 How to center a container when we don't know its dimensions.
 
-## Info
-
-__Demo__: http://codepen.io/asainz/pen/Kpwbzv  
-__Gist__: https://gist.github.com/asainz/28b4fbad2eb399bc245d
-
 ## Code
 
 ```html
@@ -23,7 +18,7 @@ __Gist__: https://gist.github.com/asainz/28b4fbad2eb399bc245d
 .centering-parent{
   text-align: center;
 }
- 
+
 .centering-parent:before {
   content: '';
   display: inline-block;
@@ -31,7 +26,7 @@ __Gist__: https://gist.github.com/asainz/28b4fbad2eb399bc245d
   vertical-align: middle;
   margin-right: -0.25em; /* Adjusts for spacing */
 }
- 
+
 .centering-child {
   display: inline-block;
   vertical-align: middle;
@@ -42,16 +37,20 @@ __Gist__: https://gist.github.com/asainz/28b4fbad2eb399bc245d
 
 The `.centering-parent:before` acts like a table and `.centering-child` acts as a table cell, both allowing vertical centering.
 
-`.centering-parent:before`, since it's `inline-block', will take the content's element, so we give it a `height: 100%;`, and we set the baseline in the middle with `vertical-align: middle;`. Since its parent is nor a `table` nor `vertical-align: middle;`, the middle of this element will not match the parent baseline. It will be the middle of the content.
+`.centering-parent:before`, since it's `inline-block`, will take the content's element, so we give it a `height: 100%;`, and we set the baseline in the middle with `vertical-align: middle;`. Since its parent is nor a `table` nor `vertical-align: middle;`, the middle of this element will not match the parent baseline. It will be the middle of the content.
 
 Then, we set the baseline to the middle for `.centering-child` too. Since its parent is `vertical-align: middle;` also, both baseline will be in the same place, the middle of the outter container.
-
 
 You can read a full in depth explanation [here](http://gtwebdev.com/workshop/vcenter/vcenter-inline-css.php)
 
 ## Support
 
->= IE8 and real browsers
+> \>=IE8 and real browsers
+
+## Info
+
+__Demo__: http://codepen.io/asainz/pen/Kpwbzv  
+__Gist__: https://gist.github.com/asainz/28b4fbad2eb399bc245d
 
 ## Credits
 
