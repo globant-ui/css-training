@@ -12,6 +12,8 @@
         * [Comparing ancestor selectors](content/css-selectors/comparing-ancestor-selectors.md)
         * [Siblings selectors](content/css-selectors/siblings-selectors.md)
         * [Grouping selectors](content/css-selectors/grouping-selectors.md)
+        * [Pseudo classes](content/css-selectors/pseudo-classes.md)
+        * [Pseudo elements](content/css-selectors/pseudo-elements.md)
     * [Alignment](content/alignment/README.md)
         * [Vertical centering techniques](content/alignment/vertical-centering-techniques.md)
         * [Centering the unknown](content/alignment/centering-the-unknown.md)
