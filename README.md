@@ -27,6 +27,8 @@ This is the CSS training and best practices repository for Globant Mobile Studio
     * [Modal example](BEM/modal.md)
 * Stacking Context
     * [What is it?](stacking-context/what.md)
+* Reset
+	* [Reset Vs. Normalize](reset/reset-vs-normalize-doc.md)
 
 ## Contributing
 
