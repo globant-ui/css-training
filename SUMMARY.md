@@ -19,7 +19,9 @@
         * [Centering the unknown](content/alignment/centering-the-unknown.md)
      * [Box Model](content/box-model/README.md)
         * [Box model representation](content/box-model/representation.md)
-        * [Box sizing differences](content/box-model/box-sizing-differences.md)  
+        * [Box sizing differences](content/box-model/box-sizing-differences.md)
+    * Reset
+		* [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
 * [Medium Level](content/medium-level.md)
     * [Architecture](content/architecture/README.md)
         * [OOCSS](content/architecture/oocss.md)
