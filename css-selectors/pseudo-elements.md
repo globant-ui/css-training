@@ -33,14 +33,14 @@ Note: Sometimes you will see double colons (::) instead of just one (:). This is
 
 ## Code example
 
-//Places '*' before every element with titles class. 
-.titles::before {
-    content: '*';
-}
-//Places '--' before after element with titles class. 
-.titles::after {
-    content: '--';
-}
+    //Places '*' before every element with titles class. 
+    .titles::before {
+        content: '*';
+    }
+    //Places '--' before after element with titles class. 
+    .titles::after {
+        content: '--';
+    }
 
 ## Credits
 
