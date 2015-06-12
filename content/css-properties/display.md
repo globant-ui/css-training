@@ -25,3 +25,12 @@ Much like a block element, but it is affected by width and height.
 ### table and table-cell
 
 this values exist mainly to force elements other than table elements to behave as such.
+
+#### Info
+
+__Demo__: http://codepen.io/Vratyas/pen/doWYEw?editors=110  
+__Gist__: https://gist.github.com/Vratyas/57d7c6b3f59eddffe529
+
+#### Credits
+
+Juan Fernandez - <j.fernandez@globant.com>

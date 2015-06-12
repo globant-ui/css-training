@@ -1,10 +1,5 @@
 # ID and Class selectors
 
-## Info
-
-__Demo__: http://codepen.io/asainz/pen/ogZeBd  
-__Gist__: https://gist.github.com/asainz/bbf4168b3c0982c0ba7c
-
 ## Description
 
 Simple selection by id and class
@@ -34,6 +29,11 @@ Simple selection by id and class
   background: #00f;
 }
 ```
+
+## Info
+
+__Demo__: http://codepen.io/asainz/pen/ogZeBd  
+__Gist__: https://gist.github.com/asainz/bbf4168b3c0982c0ba7c
 
 ## Credits
 

@@ -2,11 +2,6 @@
 
 This selector matches direct children of an element
 
-## Info
-
-__Demo__: http://codepen.io/asainz/pen/ZYexJg  
-__Gist__: https://gist.github.com/asainz/0d3eefd2c1689d7c80a1
-
 ## Code
 
 ```html
@@ -27,6 +22,11 @@ p > span {
   color: white;
 }
 ```
+
+## Info
+
+__Demo__: http://codepen.io/asainz/pen/ZYexJg  
+__Gist__: https://gist.github.com/asainz/0d3eefd2c1689d7c80a1
 
 ## Credits
 
