@@ -1,6 +1,6 @@
 # Basic Layout
 
-## [Snippets](layout-doc.md)
+## [Snippets](layout-snippet.md)
 
 ## Float layout
 
