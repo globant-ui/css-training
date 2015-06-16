@@ -20,7 +20,7 @@ Attribute selectors are delimited by square brackets; the simplest form of an at
 | ------------- | ----------- | ----------- |
 | [attribute=value]	|a[target="_blank"]	|selector is used to select elements with a specified attribute and value|
 |[attribute~=value]	|[title~="flower"]	|selector is used to select elements with an attribute value containing a specified word. These examples will match elements with title="flower", title="summer flower", and title="flower new", but not title="my-flower" or title="flowers".
-|"[attribute&#124;=value]" |[class&#124;="top"]	| selector is used to select elements with the specified attribute starting with the specified value. Match classes like class="top".
+|[attribute&#124;=value] |[class&#124;="top"]	| selector is used to select elements with the specified attribute starting with the specified value. Match classes like class="top".
 |[attribute^=value]	|[class^="top"]	|selector is used to select elements whose attribute value begins with a specified value.
 |[attribute$=value]	|[class$="test"]	|selector is used to select elements whose attribute value ends with a specified value.
 |[attribute*=value]	|[class*="te"]	|selector is used to select elements whose attribute value contains a specified value.
