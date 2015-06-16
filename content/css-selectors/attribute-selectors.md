@@ -5,14 +5,15 @@
 CSS has the ability to target HTML elements based on any one of their attributes. An attribute selector will match elements on the basis of either the presence of an attribute, or the exact or partial match of an attribute value. Attribute selectors were introduced in CSS2, and CSS3 added a few more.
 
 Attribute selectors are delimited by square brackets; the simplest form of an attribute selector consists of an attribute name surrounded by square brackets for example:
+```
+tag[attribute] {
+	declarations
+}
 
-	tag[attribute] {
-  		declarations
-	}
-
-	[class(type of selector)name] {
-  		declarations
-	}
+[class(type of selector)name] {
+	declarations
+}
+```
 
 ## All Selectors By Attribute 
 
@@ -28,20 +29,20 @@ Attribute selectors are delimited by square brackets; the simplest form of an at
 ## Styling inputs
 
 The attribute selectors can be useful for styling forms without class or ID:
+```
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
 
-	input[type="text"] {
-    width: 150px;
-    display: block;
-    margin-bottom: 10px;
-    background-color: yellow;
-	}
-
-	input[type="button"] {
-	    width: 120px;
-	    margin-left: 35px;
-	    display: block;
-	}
-
+input[type="button"] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+}
+```
 
 ## Info
 
