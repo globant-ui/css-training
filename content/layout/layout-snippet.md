@@ -19,6 +19,4 @@ __Gist__: https://gist.github.com/Vratyas/ea703168f7642dd0a897
 
 ## Credits
 
-Put your contact information here in case someone wants to share feedback with you.
-
 email: Juan Fernandez <j.fernandez@globant.com>
