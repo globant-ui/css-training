@@ -22,6 +22,8 @@
         * [Box sizing differences](content/box-model/box-sizing-differences.md)
     * Reset
 		* [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
+	* Layout
+		* [Basic Layout](content/layout/layout-doc.md)
 * [Medium Level](content/medium-level.md)
     * [Architecture](content/architecture/README.md)
         * [OOCSS](content/architecture/oocss/what.md)
