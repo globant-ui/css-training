@@ -30,7 +30,7 @@
         * [OOCSS](content/architecture/oocss/what.md)
         * [BEM](content/architecture/bem/modal.md)
         * [SMACSS](content/architecture/smacss/smacss.md)
-     * [Stacking context](content/stacking-context/what.md)
+    * [Stacking context](content/stacking-context/what.md)
 * [Advanced Level](content/advanced-level.md)
     * [Preprocesors](content/preprocesors/README.md)
         * [SASS](content/preprocesors/sass.md)
