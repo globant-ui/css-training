@@ -22,9 +22,10 @@
         * [Box model representation](content/box-model/representation.md)
         * [Box sizing differences](content/box-model/box-sizing-differences.md)
     * Reset
-		* [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
-	* Layout
-		* [Basic Layout](content/layout/layout-doc.md)
+        * [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
+    * [Layout](content/layout/README.md)
+        * [Basic Layout](content/layout/basic-layout-doc.md)
+        * [Flexbox](content/layout/flexbox.md)
 * [Medium Level](content/medium-level.md)
     * [Architecture](content/architecture/README.md)
         * [OOCSS](content/architecture/oocss/what.md)
