@@ -1,6 +1,12 @@
 # Basic Layout
 
-## [Snippets](basic-layout-snippet.md)
+There are several techniques to lay out content. Even though there are now advanced techniques to handle almost every scenario, there are some more basic ones, that will be suited for a good variety of scenario, without the hassle of a complicated tool, like `flexbox`.
+
+Some of the basic ones are:
+
+1. [Float Layout](#float-layout)
+2. [Inline Layout](#inline-layout)
+3. [Positioned Layout](#positioned-layout)
 
 ## Float layout
 
@@ -10,14 +16,14 @@ Layouting with float is maybe the most commonly used method. It's pretty easy to
 	  content: "";
 	  display: table;
 	  clear: both;
-	} 
+	}   
+
+It may seem a little abstract, but what this does is it forces a parent element to clear for it's childrens. Take a look at the snippet to see how it's used and check this link for more information: [https://css-tricks.com/snippets/css/clear-fix/](https://css-tricks.com/snippets/css/clear-fix/)
 
 ### Example
 
 __Demo__: http://codepen.io/Vratyas/pen/zGdWYO  
-__Gist__: https://gist.github.com/Vratyas/bc14a63bbf2315ff2fa3  
-
-It may seem a little abstract, but what this does is it forces a parent element to clear for it's childrens. Take a look at the snippet to see how it's used and check this link for more information: [https://css-tricks.com/snippets/css/clear-fix/](https://css-tricks.com/snippets/css/clear-fix/)
+__Gist__: https://gist.github.com/Vratyas/bc14a63bbf2315ff2fa3
 
 ## Inline layout
 
@@ -37,7 +43,7 @@ We opted for the 'comment' technique for our snippets but check this article and
 __Demo__: http://codepen.io/Vratyas/pen/vOJRee  
 __Gist__: https://gist.github.com/Vratyas/3c13837cd8050628a20f  
 
-## Position relative/absolute layout
+## Positioned layout
 
 ### Example
 

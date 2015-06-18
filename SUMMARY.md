@@ -24,7 +24,7 @@
     * Reset
         * [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
     * [Layout](content/layout/README.md)
-        * [Basic Layout](content/layout/basic-layout-doc.md)
+        * [Basic Layout](content/layout/basic-layout.md)
         * [Flexbox](content/layout/flexbox.md)
 * [Medium Level](content/medium-level.md)
     * [Architecture](content/architecture/README.md)
