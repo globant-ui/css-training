@@ -46,7 +46,7 @@
         * [SASS](content/preprocesors/sass.md)
         * [LESS](content/preprocesors/less.md)
         * [COMSASS](content/preprocesors/comsass.md)
-    * [GRIDS](content/grids/README.md)
+    * [Grids](content/grids/README.md)
         * [What are they?](content/grids/what.md)
         * [Grids with bootstrap](content/grids/bootstrp.md)
         * [Grids with susy](content/grids/susy.md)
