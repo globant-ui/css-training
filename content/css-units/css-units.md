@@ -4,7 +4,7 @@ We often need to set height, width, margin, or different sizes for images or tex
 To do so CSS offers different units for expressing length. The units of measure are divided into two groups: Relative length units and absolute length units.
 
 ### Relative length units
-Relative length units like `em` or `rem` are commonly use for typography and everything regarding to it, and are relative to another length property. 
+Relative length units like `em` or `rem` are commonly used for typography and everything regarding to it, and are relative to another length property. 
 `em` is relative to the font-size of the current element and `rem` is relative to the font-size of the root element.
 
 `%` The percent unit is much like the `em` unit, save for a few fundamental differences. 
