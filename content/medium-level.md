@@ -1,2 +1,3 @@
 # CSS Book - Medium Level
 
+In this section you will learn about some topics what will become useful as the scope of your project starts to grow. Here, you will learn, among other things, how to structure your code, how to modularize it and think of modules instead of pages and how the browser computes some properties that depends of where the element its placed and what kind of parents/siblings it has.
