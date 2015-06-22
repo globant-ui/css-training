@@ -27,6 +27,7 @@
         * [Basic Layout](content/layout/basic-layout.md)
         * [Flexbox](content/layout/flexbox.md)
     * [Architecture](content/architecture-begginer/README.md)
+    	* [Cascading and Inheritance](content/cascading-and-inheritance/cascading-and-inheritance-doc.md)
         * [Global scopes](content/architecture-begginer/global-scopes.md)
         * [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
 * [Medium Level](content/medium-level.md)
