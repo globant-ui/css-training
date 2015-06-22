@@ -87,7 +87,7 @@ Yes! They are useful, but you have to be cautious about them. One of the most co
 
 ```css
 li {
-    lyst-style: none;
+    list-style: none;
 }
 
 a {
