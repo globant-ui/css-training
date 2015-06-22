@@ -19,7 +19,7 @@
         * [What is it?](content/box-model/what.md)
         * [Box sizing differences](content/box-model/box-sizing-differences.md)
     * [CSS Units](content/css-units/README.md)
-        * [CSS Units](content/css-units/css-units.md)
+        * [Text Units](content/css-units/text-units.md)
     * [Alignment](content/alignment/README.md)
         * [Vertical centering techniques](content/alignment/vertical-centering-techniques.md)
         * [Centering the unknown](content/alignment/centering-the-unknown.md)
