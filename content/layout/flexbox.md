@@ -105,7 +105,7 @@ __Gist__: https://gist.github.com/asainz/bbb5e721f37e84c19965
 
 #### flex-flow
 
-Shorthand for flex-direction and flex-wrap.
+Shorthand for `flex-direction` and `flex-wrap`.
 
 ```css
 .flex{
@@ -213,3 +213,118 @@ __Gist__: https://gist.github.com/asainz/0e52b9953df313b4e28d
 
 ### Children flexbox properties
 
+#### order
+
+It changes the order the elemnts are rendered. By default, they are rendered in the order defined in the DOM
+
+```css
+.item{
+    order: NUMBER;
+}
+```
+
+__Demo__: http://codepen.io/asainz/pen/VLrmzN  
+__Gist__: https://gist.github.com/asainz/75e6ec316b83f45e4884
+
+#### flex-grow
+
+This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.
+
+If all items have flex-grow set to 1, every child will set to an equal size inside the container. If you were to give one of the children a value of 2, that child would take up twice as much space as the others. Negatives number are invalid.
+
+```css
+.item{
+    flew-grow: NUMBER; /* defult to 1 */
+}
+```
+
+__Demo__: http://codepen.io/asainz/pen/VLrmzN  
+__Gist__: https://gist.github.com/asainz/75e6ec316b83f45e4884
+
+#### flex-basis
+
+This defines the default size of an element before the remaining space is distributed. The main-size value makes it match the width or height, depending on which is relevant based on the flex-direction.
+
+```css
+.item {
+  flex-basis: LENGTH | auto; /* default auto */
+}
+```
+
+For instance
+
+```css
+.flex.first-example p:first-child { 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20em;
+}
+.flex.first-example p:last-child { 
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 20em;
+} 
+```
+
+Both flex items want to be 20em wide. Because of the flex-grow, if the flex container is larger than 40em, the 2nd child will take twice as much leftover space as the first child.
+
+If `flex-basis` is set to 0, the extra space around content isn't factored in. If set to auto, the extra space is distributed based on it's flex-grow value
+
+__Demo__: http://codepen.io/asainz/pen/XbzpOW  
+__Gist__: https://gist.github.com/asainz/1ab76be1ff4cb9dc0c7e
+
+#### flex-shrink
+
+This defines the ability for a flex item to shrink if necessary. Negatives number are invalid. Think of it as the opposite of `flex-grow`. When there is no space to accommodate all the items based on their `flex-grow` and `flex-basis` values, `flex-shrink` indicates how much an item will be reduced. If we have to items, and the first one has `flex-shrink: 1` and the last one has `flex-shrink: 2`, the lat one will be reduced twice as much as the first one.
+
+```css
+.item{
+    flex-shrink: NUMBER; /* defult to 1 */
+}
+```
+
+__Demo__: http://codepen.io/asainz/pen/RPjKBV  
+__Gist__: https://gist.github.com/aac145b936b3a9274236
+
+#### flex
+
+Shorthand for `flex-grow`, `flex-shrink` and `flex-basis`
+
+```css
+.flex{
+    flex-flow: 0 1 auto; /* default */
+}
+
+.flex{
+    flex-flow: NUMBER NUMBER [LENGTH | auto];
+}
+```
+
+#### align-self
+
+Allows to override the alignment set by `align-items` for an individual item.
+
+```css
+.flex{
+    align-self: flex-start; /* default */
+}
+
+.flex{
+    align-self: flex-end;
+}
+
+.flex{
+    align-self: center;
+}
+
+.flex{
+    align-self: baseline;
+}
+
+.flex{
+    align-self: stretch;
+}
+```
+
+__Demo__: http://codepen.io/asainz/pen/LVOyLX
+__Gist__: https://gist.github.com/07695f9140ca9a15e14e
