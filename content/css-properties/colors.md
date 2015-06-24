@@ -120,6 +120,8 @@ Example:
  } 
 
 ```
+Note: The library colors.css is a collection of skin classes to use while prototyping in the browser.All the information related could be find here:
+[colors.csss](http://clrs.cc/)
 
 ### Considerations about the color use
 
