@@ -51,3 +51,4 @@
         * [Grids with bootstrap](content/grids/bootstrp.md)
         * [Grids with susy](content/grids/susy.md)
     * [How to face a refactor?](content/refactor/README.md)
+        * [When do i need a refactor?](content/refactor/when.md)
