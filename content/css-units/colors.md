@@ -1,6 +1,6 @@
 # Colors
 
-The color CSS data type denotes a color in the sRGB color space (RED, GREEN, and BLUE light).
+The color CSS data type denotes a color in the RGB color space (RED, GREEN, and BLUE light).
 
 Associated with the color in the sRGB space, a value also consists of an alpha-channel coordinate, transparency value, indicating how the color should composite with its background color.
 
