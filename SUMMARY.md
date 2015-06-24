@@ -4,11 +4,8 @@
     * [CSS Properties](content/css-properties/README.md)
         * [Position](content/css-properties/positioning.md)
         * [Display](content/css-properties/display.md)
-<<<<<<< HEAD
-        * [Float](content/css-properties/float.md)
-=======
         * [Overflow](content/css-properties/overflow.md)
->>>>>>> 6ee40e3cdde2462018b7b34235e711c6006b259c
+        * [Float](content/css-properties/float.md)
     * [CSS selector](content/css-selectors/README.md)
         * [All elements selector](content/css-selectors/all-elements-selector.md)
         * [Id and class selectors](content/css-selectors/id-class-selectors.md)
