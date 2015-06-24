@@ -61,7 +61,7 @@ But, what if you have a `.list` module and a `.list-left` module, both implement
 
 ### Lots and lots of styles applied by id
 
-This is an extension of the overqualifying problem. First of all, ids are not reusable, so applying styles by id means you're not going to be able to use that anywhere in the app. If that's not bad enough, ids have a greater specificity that classes, so if someone added ids in every selector, you have to remove them from the css and html or create your classes with ids or `!imporatnt`s. Whaever you do, it will not be pretty.
+This is an extension of the overqualifying problem. First of all, ids are not reusable, so applying styles by id means you're not going to be able to use that anywhere in the app. If that's not bad enough, ids have a greater specificity that classes, so if someone added ids in every selector, you have to remove them from the css and html or create your classes with ids or `!important`s. Whaever you do, it will not be pretty.
 
 ### Lots and lots of inline css
 
