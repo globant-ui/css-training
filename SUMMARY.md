@@ -43,7 +43,7 @@
         * [BEM](content/architecture-medium/bem/modal.md)
         * [SMACSS](content/architecture-medium/smacss/smacss.md)
     * [Stacking context](content/stacking-context/what.md)
-    * [Block formatting context](content/blog-formatting-context/what.md)
+    * [Block formatting context](content/block-formatting-context/what.md)
     * [Vertical rhythm](content/vertical-rhythm/what.md)
 * [Advanced Level](content/advanced-level.md)
     * [Preprocesors](content/preprocesors/README.md)
