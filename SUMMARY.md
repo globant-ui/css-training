@@ -21,6 +21,7 @@
         * [Box sizing differences](content/box-model/box-sizing-differences.md)
     * [CSS Units](content/css-units/README.md)
         * [Text Units](content/css-units/text-units.md)
+        * [Colors](content/css-units/colors.md)
     * [Alignment](content/alignment/README.md)
         * [Vertical centering techniques](content/alignment/vertical-centering-techniques.md)
         * [Centering the unknown](content/alignment/centering-the-unknown.md)
