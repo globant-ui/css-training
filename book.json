@@ -1,11 +1,5 @@
 {
     "variables": {
-        "credits": {
-            "andres": {
-                "fullName": "Andrés Sainz",
-                "email": "andres.sainz@globant.com"
-            }
-        },
         "authors": [
             { "name": "Andrés Sainz", "email": "andres.sainz@globant.com" },
             { "name": "Gerónimo Sgritta", "email": "geronimo.garcia@globant.com" },
