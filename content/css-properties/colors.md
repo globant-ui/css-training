@@ -1,8 +1,10 @@
 # Css Colors
 
-Colors are displayed combining RED, GREEN, and BLUE light.
+Colors are displayed combining .
 
-CSS colors are defined using a hexadecimal (HEX) notation for the combination of Red, Green, and Blue color values (RGB). The lowest value that can be given to one of the light sources is 0 (HEX 00). The highest value is 255 (HEX FF).
+The color CSS data type denotes a color in the sRGB color space (RED, GREEN, and BLUE light).
+
+Associated with the color in the sRGB space, a value also consists of an alpha-channel coordinate, transparency value, indicating how the color should composite with its background color.
 
 
 ## Color methods
