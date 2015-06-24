@@ -345,3 +345,7 @@ Allows to override the alignment set by `align-items` for an individual item.
 
 __Demo__: http://codepen.io/asainz/pen/LVOyLX  
 __Gist__: https://gist.github.com/07695f9140ca9a15e14e
+
+## Play with it!
+
+There's a great online tool that you can use to enforce the understanding of this properties and play with them. [Flexbox in 5 minutes!](http://flexboxin5.com/)
