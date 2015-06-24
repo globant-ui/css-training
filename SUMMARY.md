@@ -52,4 +52,5 @@
         * [What are they?](content/grids/what.md)
         * [Grids with bootstrap](content/grids/bootstrp.md)
         * [Grids with susy](content/grids/susy.md)
+        * [Grids with CSS columns](content/grids/css-columns.md)
     * [How to face a refactor?](content/refactor/README.md)
