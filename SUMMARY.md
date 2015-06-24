@@ -57,3 +57,6 @@
         * [Grids with CSS columns](content/grids/css-columns.md)
     * [How to face a refactor?](content/refactor/README.md)
         * [When do i need a refactor?](content/refactor/when.md)
+        * [What do i need to take into account before start changing code?](content/refactor/take-into-account.md)
+        * [Defining an standard]
+        * [Modularizing the app]
