@@ -1,4 +1,4 @@
-# Css Colors
+# Colors
 
 Colors are displayed combining .
 
