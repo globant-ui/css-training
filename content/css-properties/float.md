@@ -1,6 +1,6 @@
 # Float
 
-A floated element will be takend from the normal flow of the document and places either on the left or the right side of its container.
+A floated element will be taken from the normal flow of the document and place either on the left or the right side of its container.
 
 You can think of floated elements as having their own flow in the container. That means that a floated element will be taken all the way right or left until they collide with the edge of the container or another floated element. All text or inline elements will wrap arround a floated element.
 
