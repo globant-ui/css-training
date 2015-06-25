@@ -60,6 +60,5 @@
         * [What do i need to take into account before start changing code?](content/refactor/take-into-account.md)
         * [Defining an standard](content/refactor/standard.md)
         * [Modularizing the app](content/refactor/modularizing.md)
-        * [What would be a good starting point?]
-        * [What is the most important thing to change first?]
         * [How can you make the old css and new css coexist?](content/refactor/old-new-coexist.md)
+        * [Where do i start?](content/refactor/where-to-start.md)
