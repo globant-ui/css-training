@@ -32,7 +32,7 @@ Note: Sometimes you will see double colons (::) instead of just one (:). This is
 
 
 ## Code example
-
+```css
     //Places '*' before every element with titles class. 
     .titles::before {
         content: '*';
@@ -41,7 +41,7 @@ Note: Sometimes you will see double colons (::) instead of just one (:). This is
     .titles::after {
         content: '--';
     }
-
+```
 ## Credits
 
 Mauricio Garcia Vargas - mauricio.garcia@globant.com
