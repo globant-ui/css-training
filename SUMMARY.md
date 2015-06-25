@@ -58,5 +58,8 @@
     * [How to face a refactor?](content/refactor/README.md)
         * [When do i need a refactor?](content/refactor/when.md)
         * [What do i need to take into account before start changing code?](content/refactor/take-into-account.md)
-        * [Defining an standard]
+        * [Defining an standard](content/refactor/standard.md)
         * [Modularizing the app]
+        * [What would be a good starting point?]
+        * [What is the most important things to change first?]
+        * [How can make the old css and new css coexist?]
