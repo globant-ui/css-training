@@ -1,6 +1,6 @@
 # Content
 
-The content CSS property allow to insert generated content.
+This CSS property allow to insert generated content.
 
 It is used with the ::before and ::after pseudo-elements to generate content in an element. Objects inserted using the content property are anonymous replaced elements (In CSS, a replaced element is an element whose representation is outside the scope of CSS).
 
