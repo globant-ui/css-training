@@ -1,6 +1,6 @@
 # What are the components?
 
-Components are reusable, atomic parts of the app. Together, the will form a app view or page. 
+Components are reusable, atomic parts of the app. Together, the will form a app view or page. One of the main aspects of a component is that it shouldn't change depending of where it's placed. It you have a calendar component, and you put one in a login form and another one in a register form, the component should look the same. If your component has styling based on its parents, that component is not fully atomic and you won't get the most out of them.
 
 ## What do they look like in css?
 
