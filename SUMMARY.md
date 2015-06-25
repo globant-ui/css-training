@@ -5,6 +5,7 @@
         * [Position](content/css-properties/positioning.md)
         * [Display](content/css-properties/display.md)
         * [Overflow](content/css-properties/overflow.md)
+        * [Float](content/css-properties/float.md)
     * [CSS selector](content/css-selectors/README.md)
         * [All elements selector](content/css-selectors/all-elements-selector.md)
         * [Id and class selectors](content/css-selectors/id-class-selectors.md)
