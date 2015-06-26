@@ -37,6 +37,11 @@ or
 Noticed that in the expressions of the previous examples we use `min-device-width` or `max-width` to describe the requirements of the device, these are called media features.
 In fact, media features here are `device-width` and `max-width` and there others like `color`, `aspect-ratio`, `orientation`. And they are usually prefixed with "min-" or "max-" in order to express "greater than" or "less than" and avoid using "<" and ">" symbols, which would conflict with HTML.
 
+#### Info
+__Demo__: http://codepen.io/llewan/pen/JdMYEQ  
+__Gist__: https://gist.github.com/anonymous/95081cf9f1a9535122a0
+
+
 #### Credits
 
 Leonardo Lewandowski - l.lewandowski@globant.com
