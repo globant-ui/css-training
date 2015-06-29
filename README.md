@@ -4,6 +4,14 @@ This is the CSS training and best practices repository for Globant Mobile Studio
 
 {% include "./SUMMARY.md" %}
 
+## Resources & Credits
+
+This hadn't been possible without definitions and documentation from:
+
+{% for resource in book.resources %}
+**{{ resource.name }}** >> {{ resource.homepage }}  
+{% endfor %}
+
 ## Authors
 
 {% for author in book.authors %}
