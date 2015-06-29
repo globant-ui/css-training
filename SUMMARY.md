@@ -39,6 +39,8 @@
         * Flexbox layouts
             * [Sticky footer](content/layout-medium/flexbox/sticky-footer.md)
             * [Centering the unknown](content/layout-medium/flexbox/centering-the-unknown.md)
+            * [Boxes](content/layout-medium/flexbox/boxes.md)
+            * [Accordion-like](content/layout-medium/flexbox/accordion-like.md)
     * [Components](content/components/README.md)
         * [What are they?](content/components/what.md)
         * [How can i think of components?](content/components/think-of.md)
