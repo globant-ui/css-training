@@ -17,7 +17,9 @@ A `repaint`, also known as `redraw`, is a process in which the web browser calcu
 * resize the window
 * scroll
 
-As you can see, almost everything forces a reflow, so we have to be cautious when dealing with dom elements
+As you can see, almost everything forces a reflow, so we have to be cautious when dealing with dom elements. For a full, detailed to the extreme list of properties that triggers reflows, check out this awesome link:
+
+[http://csstriggers.com/](http://csstriggers.com/)
 
 ## How can i minimize the number of them?
 
