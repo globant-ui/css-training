@@ -2,6 +2,7 @@
     "variables": {
         "authors": [
             { "name": "Andrés Sainz", "email": "andres.sainz@globant.com" },
+            { "name": "Darío Dessaunet", "email": "dario.dessaunet@globant.com" },
             { "name": "Gerónimo Sgritta", "email": "geronimo.garcia@globant.com" },
             { "name": "Leonardo Lewandosky", "email": "l.lewandowski@globant.com" },
             { "name": "Mauricio Garcia Vargas", "email": "mauricio.garcia@globant.com" },
