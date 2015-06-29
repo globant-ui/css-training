@@ -10,6 +10,12 @@
         "creditsExternalResources": [
             { "name": "Mozilla Developer Network", "homepage": "https://developer.mozilla.org/en-US/" },
             { "name": "Google Developers", "homepage": "https://developers.google.com/web/" }
+        ],
+        "resources": [
+            { "name": "Colors", "description": "Skinning your prototypes just got easier - colors.css is a collection of skin classes to use while prototyping in the browser.", "link": "http://clrs.cc/" },
+            { "name": "CSS triggers", "description": "A list of css properties and whether or not they force a reflow.", "link": "http://csstriggers.com/" },
+            { "name": "Flexbox in 5 minutes", "link": "http://flexboxin5.com/", "description": "Take an interactive tour through all the major features of the new flexbox CSS property." },
+            { "name": "Solved by flexbox", "link": "http://philipwalton.github.io/solved-by-flexbox/", "description": "This site is not another CSS framework. Instead, its purpose is to showcase problems once hard or impossible to solve with CSS alone, now made trivially easy with Flexbox." }
         ]
     }
 }
