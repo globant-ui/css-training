@@ -36,6 +36,8 @@
 * [Medium Level](content/medium-level.md)
     * [Layout](content/layout-medium/README.md)
         * [Flexbox](content/layout-medium/flexbox.md)
+        * Flexbox layouts
+            * [Sticky footer](content/layout-medium/flexbox/sticky-footer.md)
     * [Components](content/components/README.md)
         * [What are they?](content/components/what.md)
         * [How can i think of components?](content/components/think-of.md)
