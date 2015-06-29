@@ -58,3 +58,5 @@
         * [Grids with susy](content/grids/susy.md)
         * [Grids with CSS columns](content/grids/css-columns.md)
     * [How to face a refactor?](content/refactor/README.md)
+    * [Performance](content/performance/README.md)
+        * [Minimizing browser reflow](content/performance/reflow.md)
