@@ -8,7 +8,7 @@ This is the CSS training and best practices repository for Globant Mobile Studio
 
 This hadn't been possible without definitions and documentation from:
 
-{% for resource in book.resources %}
+{% for resource in book.creditsExternalResources %}
 **{{ resource.name }}** >> {{ resource.homepage }}  
 {% endfor %}
 

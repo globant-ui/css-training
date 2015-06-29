@@ -7,7 +7,7 @@
             { "name": "Mauricio Garcia Vargas", "email": "mauricio.garcia@globant.com" },
             { "name": "Juan Fernandez", "email": "j.fernandez@globant.com" }
         ],
-        "resources": [
+        "creditsExternalResources": [
             { "name": "Mozilla Developer Network", "homepage": "https://developer.mozilla.org/en-US/" },
             { "name": "Google Developers", "homepage": "https://developers.google.com/web/" }
         ]
