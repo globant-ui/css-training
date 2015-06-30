@@ -308,7 +308,7 @@ It is a bad habit to nest every or most times an element is appears nested in th
 
 Ask yourself if your compiled CSS is meant to be human readable or machine readable. If you work in Sass, but know the resulting CSS will be hand edited, I would avoid extending selectors. When using @extend two times on a single selector, there will be code related to it at three places in the CSS (assuming you aren't nesting extends).
 
-Note: Generally, avoid using the @extend extensionIf you cannot avoid@extend`, only extend placeholder classes.
+Note: Generally, avoid using the @extend extension If you cannot, only extend placeholder classes.
 
 #### Don't fool around with variables name
 
