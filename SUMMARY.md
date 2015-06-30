@@ -18,6 +18,7 @@
         * [Pseudo classes](content/css-selectors/pseudo-classes.md)
         * [Pseudo elements](content/css-selectors/pseudo-elements.md)
         * [Selectors by attribute](content/css-selectors/attribute-selectors.md)
+    * [Specificity](content/specificity/specificity-selectors-doc.md)
     * [Box Model](content/box-model/README.md)
         * [What is it?](content/box-model/what.md)
         * [Box sizing differences](content/box-model/box-sizing-differences.md)
