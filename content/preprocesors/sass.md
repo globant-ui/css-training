@@ -8,6 +8,7 @@
 * [Mixins](#mixins)
 * [Functions](#functions)
 * [Placeholders](#placeholders)
+* [Sass bad practices](#sass-bad-practices)
 * [Info](#info)
 * [Credits](#credits)
 
@@ -288,6 +289,67 @@ And the generated css will be:
 }
 ```
 Notice how .icon is no longer present in the compiled CSS.
+
+### Sass bad practices
+
+Remember Sass doesn't create bad code. Bad coders do. Let's review some bad pratices in sass:
+
+#### Over nesting
+
+Limit nesting as much as possible. Assess every single level of nesting that you use. This prevents increasing specificity and impacting performance. Before nesting, ask yourself "will this work without nesting?" Just because you can nest does not mean you should, or that it makes the code maintainable (Hint: it doesn't).
+
+At most, go no more than 4 levels deep.
+
+#### Think css/sass as html
+
+It is a bad habit to nest every or most times an element is appears nested in the markup. CSS/SASS is not HTML, so we can't treat it in the same way. We have to be mindful of the selectors that we are compiling.
+
+#### Over extending
+
+Ask yourself if your compiled CSS is meant to be human readable or machine readable. If you work in Sass, but know the resulting CSS will be hand edited, I would avoid extending selectors. When using @extend two times on a single selector, there will be code related to it at three places in the CSS (assuming you aren't nesting extends).
+
+Note: Generally, avoid using the @extend extensionIf you cannot avoid@extend`, only extend placeholder classes.
+
+#### Don't fool around with variables name
+
+Variable names should follow this pattern: ${modifer(s)}-{name}.
+
+The name of a variable should describe the application of the variable value. For example, instead of saying $color (which is too generic to be useful), you would write $link-color which gives the name meaning and purpose.
+
+Similarly, the variable name can refer to specific properties such as $border-radius or $border.
+
+Modifiers should be added before the name. So our above examples with modifiers prepended to them will look like $dark-link-color, $large-border-radius and $dotted-border.
+
+Do note that variables without modifiers are implicitly the base version of that variable. As such, variables like $base-link-color, $base-border-radius and $base-border-radius are unnecessary.
+
+What not to do:
+```sass
+$link: #ffa600;
+$listStyle: none;
+$radius: 5px;
+```
+What to do:
+```sass
+$link-primary: $orange;
+$link-secondary: $blue;
+$link-tertiary: $grey;
+ 
+$radius-button: 5px;
+$radius-tab: 5px;
+```
+
+#### Reduce Mixin Usage
+
+A mixin is a great way to include sections of code multiple times within a site. However, including a mixin is the same as copying and pasting the styles throughout the CSS file. It creates a mass of duplicate code and can bloat your CSS file.
+
+A mixin therefore should only be used if an argument is present, to quickly create modified styles.
+
+#### Don't use function without thinking
+
+Use Functions for Calculations
+
+Functions are used to perform calculations. A Sass function does not output any CSS. Instead, it returns a value that can be used in the CSS. This is useful for calculations that will be made throughout the site.
+
 
 ## Info
 
