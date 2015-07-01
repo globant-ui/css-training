@@ -37,6 +37,12 @@
 * [Medium Level](content/medium-level.md)
     * [Layout](content/layout-medium/README.md)
         * [Flexbox](content/layout-medium/flexbox.md)
+        * Flexbox layouts
+            * [Sticky footer](content/layout-medium/flexbox/sticky-footer.md)
+            * [Centering the unknown](content/layout-medium/flexbox/centering-the-unknown.md)
+            * [Boxes](content/layout-medium/flexbox/boxes.md)
+            * [Accordion-like](content/layout-medium/flexbox/accordion-like.md)
+            * [Fixed sidebars with fluid center](content/layout-medium/flexbox/fixed-sidebar-fluid-center.md)
     * [Components](content/components/README.md)
         * [What are they?](content/components/what.md)
         * [How can i think of components?](content/components/think-of.md)
