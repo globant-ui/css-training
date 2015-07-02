@@ -43,6 +43,8 @@
             * [Boxes](content/layout-medium/flexbox/boxes.md)
             * [Accordion-like](content/layout-medium/flexbox/accordion-like.md)
             * [Fixed sidebars with fluid center](content/layout-medium/flexbox/fixed-sidebar-fluid-center.md)
+        * Media queries layouts
+            * [Boxes](content/layout-medium/media-queries/boxes.md)
     * [Components](content/components/README.md)
         * [What are they?](content/components/what.md)
         * [How can i think of components?](content/components/think-of.md)
