@@ -60,7 +60,7 @@
     * [Preprocesors](content/preprocesors/README.md)
         * [SASS](content/preprocesors/sass.md)
         * [LESS](content/preprocesors/less.md)
-        * [COMSASS](content/preprocesors/comsass.md)
+        * [COMPASS](content/preprocesors/compass.md)
     * [Grids](content/grids/README.md)
         * [What are they?](content/grids/what.md)
         * [Grids with bootstrap](content/grids/bootstrap.md)
