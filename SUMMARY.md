@@ -1,6 +1,10 @@
 # Summary
 
 * [Beginner Level](content/beginner-level.md)
+    * [HTML & CSS Basics](content/html-css-basic/README.md)
+        * [How to create an HTML page](content/html-css-basic/how.md)
+        * [Doctypes](content/html-css-basic/doctypes.md)
+        * [CSS rules](content/html-css-basic/css-rules.md)
     * [CSS Properties](content/css-properties/README.md)
         * [Position](content/css-properties/positioning.md)
         * [Display](content/css-properties/display.md)
@@ -34,6 +38,9 @@
         * [Cascading and Inheritance](content/cascading-and-inheritance/cascading-and-inheritance-doc.md)
         * [Global scopes](content/architecture-beginner/global-scopes.md)
         * [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
+    * [Accessibility] (content/accessibility/README.md)
+        * [What is it?](content/accessibility/what.md)
+        * [How to make the web more accesible?](content/accessibility/how.md)
 * [Medium Level](content/medium-level.md)
     * [Layout](content/layout-medium/README.md)
         * [Flexbox](content/layout-medium/flexbox.md)
