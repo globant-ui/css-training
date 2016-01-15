@@ -7,12 +7,12 @@ One way of making it accessible is following ARIA standard, which stands for Acc
 Semantic HTML refer to how people interpret the HTML. When machine scans the code, it doesn't matter if you create a header with a <div> or a <header>. But when a human does, it does. Great deal. It's telling people what that block is supposed to mean. When a screen reader scans the HTML, it has to tell someone what the meaning of the object is, and at that moment, having the right HTML tag will make a big difference, since the reader doesn't have to infer the meaning. It's right there.
 
 HTML5 implemented several tags with the only reason to improve semantics, and it's always recommended to use them. Some of them are:
-* <nav>
-* <header>
-* <footer>
-* <article>
-* <figure>
-* <figcaption>
+* `<nav>`
+* `<header>`
+* `<footer>`
+* `<article>`
+* `<figure>`
+* `<figcaption>`
 
 ## What is ARIA?
 

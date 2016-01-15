@@ -38,7 +38,7 @@
         * [Cascading and Inheritance](content/cascading-and-inheritance/cascading-and-inheritance-doc.md)
         * [Global scopes](content/architecture-beginner/global-scopes.md)
         * [Reset Vs. Normalize](content/reset/reset-vs-normalize-doc.md)
-    * [Accessibility] (content/accessibility/README.md)
+    * [Accessibility](content/accessibility/README.md)
         * [What is it?](content/accessibility/what.md)
         * [How to make the web more accesible?](content/accessibility/how.md)
 * [Medium Level](content/medium-level.md)
