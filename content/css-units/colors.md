@@ -2,7 +2,7 @@
 
 The color CSS data type denotes a color in the RGB color space (RED, GREEN, and BLUE light).
 
-Associated with the color in the sRGB space, a value also consists of an alpha-channel coordinate, transparency value, indicating how the color should composite with its background color.
+Associated with the color in the RGB space, a value also consists of an alpha-channel coordinate, transparency value, indicating how the color should composite with its background color.
 
 
 ## Color methods
@@ -25,7 +25,7 @@ Example:
 
 RGB color values are supported in all major browsers.
 
-An RGB color value is specified with: rgb(red, green, blue). Each parameter (red, green, and blue) defines the intensity of the color and can be an integer between 0 and 255 or a percentage value (from 0% to 100%).
+An RGB color value is specified with: rgb(red, green, blue). Each parameter (red, green, and blue) defines the intensity of the color and can it be an integer between 0 and 255 or a percentage value (from 0% to 100%).
 
 Example:
 
@@ -125,7 +125,7 @@ Note: The library colors.css is a collection of skin classes to use while protot
 
 #### Hexadecimal Colors 
 
-Is very attractive because it’s short and simple to remember and type out. But HEX might not work for you in all situations, which is when you may wish to consider one of the other two methods. Both of which have their pluses and minuses.
+Is very attractive because it’s short and simple to remember and type out. But HEX might not work for you in all situations, which is when you may wish to consider one of the other two methods. Both of which have their ups and downs.
 
 #### RGBA Colors 
 

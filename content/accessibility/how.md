@@ -1,6 +1,6 @@
 # How to make the web more accesible?
 
-One way of making it accessible is following ARIA standard, which stands for Accessible Rich Internet Applications. Another way to improve accessiblity is by using HTML5 tags instead of regular divs. This practice is call Semantic html.
+One way of making it accessible is following ARIA standard, which stands for Accessible Rich Internet Applications. Another way to improve accessiblity is by using HTML5 tags instead of regular divs. This practice is call Semantic HTML.
 
 ## Semantic HTML
 
@@ -20,7 +20,7 @@ ARIA is a set of special accessibility attributes which can be added to HTML. Th
 
 ## How do i use it
 
-In this first example, we have an HTML snippet without ARIA attributes. Theres no indication of what each <li> means not any button.
+In this first example, we have an HTML snippet without ARIA attributes. There's no indication of what each <li> means nor any button.
 
 ```HTML
 <!-- This is a tabs widget. How would you know, looking only at the markup? -->

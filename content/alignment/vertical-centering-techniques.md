@@ -4,7 +4,7 @@ You will learn here different techniques to center content vertically that you c
 
 ## Center content without a fixed height
 
-If you don't know the size of the content, you can absolute positioned it and then set the `top` and `bottom` property. The browser will set those values, and the content will be centered.
+If you don't know the size of the content, you can absolute position it and then set the `top` and `bottom` property. The browser will set those values, and the content will be centered.
 
 ```css
 div{
@@ -18,7 +18,7 @@ div{
 
 ## Center content with a fixed height
 
-If the height of the content is known, you can use this simple technique to vertically center it (it works horizontally to). If the box has 300px height, yo need to move it 50% down with the `top` property and moving up half the height with the `margin-top` property with a negative value.
+If the height of the content is known, you can use this simple technique to vertically center it (it works horizontally too). If the box has 300px height, yo need to move it 50% down with the `top` property and moving up half the height with the `margin-top` property with a negative value.
 
 ```css
 div{

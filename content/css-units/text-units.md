@@ -7,7 +7,7 @@ To do so CSS offers different units for expressing length. The units of measure 
 Relative length units like `em` or `rem` are commonly used for typography and everything regarding to it, and are relative to another length property. 
 `em` is relative to the font-size of the current element and `rem` is relative to the font-size of the root element.
 
-`%` The percent unit is much like the `em` unit, save for a few fundamental differences. 
+`%` The percent unit is much like the `em` unit, except for a few fundamental differences. 
 In the font-size property, percentage values are relative to the font size of the parent element, but in text-indent, margin, padding, and width properties, percentage values are relative to the width of the parent element.
 
 ### Absolute length units

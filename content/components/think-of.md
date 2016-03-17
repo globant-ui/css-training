@@ -1,6 +1,6 @@
 # How can i think of components?
 
-I think the best way to get the components out of the design is to look for patterns that repeat (with slight variations) across the app. For example, if your app has forms in different pages, it's safe to think that they all will *almost* the same, so having a component `.form` with some classes for its inner components will avoid having to think avoid the implementation of every and each of the forms.
+I think the best way to get the components out of the design is to look for patterns that repeat (with slight variations) across the app. For example, if your app has forms in different pages, it's safe to think that they all will *almost* look the same, so having a component `.form` with some classes for its inner components will avoid having to think avoid the implementation of every and each of the forms.
 
 Let's take a look to this twitter screenshot
 

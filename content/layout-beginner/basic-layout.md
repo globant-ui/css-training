@@ -1,6 +1,6 @@
 # Basic Layout
 
-There are several techniques to lay out content. Even though there are now advanced techniques to handle almost every scenario, there are some more basic ones, that will be suited for a good variety of scenario, without the hassle of a complicated tool, like `flexbox`.
+There are several techniques to lay out content. Even though there are now advanced techniques to handle almost every scenario, there are some more basic ones, that will be suited for a good variety of scenario, without the hassle of a more advanced tools, like `flexbox`.
 
 Some of the basic ones are:
 

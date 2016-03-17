@@ -1,10 +1,10 @@
 # What are the components?
 
-Components are reusable, atomic parts of the app. Together, the will form a app view or page. One of the main aspects of a component is that it shouldn't change depending of where it's placed. It you have a calendar component, and you put one in a login form and another one in a register form, the component should look the same. If your component has styling based on its parents, that component is not fully atomic and you won't get the most out of them.
+Components are reusable, atomic parts of the app. Together, they will form a app view or page. One of the main aspects of a component is that it shouldn't change depending of where it's placed. If you have a calendar component, and you put one in a login form and another one in a register form, the component should look the same. If your component has styling based on its parents, that component is not fully atomic and you won't get the most out of it.
 
 ## What do they look like in css?
 
-Well, a component is nothing more (and nothing less) than a class. You can choose to follow yhe standards you want ([take a look here](content/architecture-medium/README.md)), but a `.form` component will look very similar to the following snippet.
+Well, a component is nothing more (and nothing less) than a class. You can choose to follow the standards you want ([take a look here](content/architecture-medium/README.md)), but a `.form` component will look very similar to the following snippet. We're using BEM standard for these examples.
 
 ```html
 <div class="form">

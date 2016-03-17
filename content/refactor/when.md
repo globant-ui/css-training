@@ -57,11 +57,11 @@ or, even worse, something like this:
 
 For example, you have a list of items where each item has a main content, centered horizontally, and a button in both of each sides. In another page, you have the same list, but the main content is aligned to the left. Ideally, you would have somethink like a `.list` component and a `.list--left-aligned` modifier to that module.
 
-But, what if you have a `.list` module and a `.list-left` module, both implementing almost the same things (probably they were made by different people, so probably implemented in a different way) with only an alignment change? That means problem, because if you need to make a change in those two lists, you need to duplicate the change in both classes. When you're presented with this scenario, it almost always means that the basecode wasn't created with reusability in mind, and that you should expect worse things than this.
+But, what if you have a `.list` module and a `.list-left` module, both implementing almost the same things (probably they were made by different people, so probably implemented in a different way) with only an alignment change? That means problem, because if you need to make a change in those two lists, you need to duplicate the change in both classes (that's the best case scenario, because you may not be aware of the second class and you may think that changing only one class will fix the problem everywhere). When you're presented with this scenario, it almost always means that the basecode wasn't created with reusability in mind, and that you should expect worse things than this.
 
 ### Lots and lots of styles applied by id
 
-This is an extension of the overqualifying problem. First of all, ids are not reusable, so applying styles by id means you're not going to be able to use that anywhere in the app. If that's not bad enough, ids have a greater specificity that classes, so if someone added ids in every selector, you have to remove them from the css and html or create your classes with ids or `!important`s. Whaever you do, it will not be pretty.
+This is an extension of the overqualifying problem. First of all, ids are not reusable, so applying styles by id means you're not going to be able to use that anywhere else in the app. If that's not bad enough, ids have a greater specificity that classes, so if someone added ids in every selector, you have to remove them from the css and html or create your classes with ids or `!important`s. Whaever you do, it will not be pretty.
 
 ### Lots and lots of inline css
 

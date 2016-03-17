@@ -1,6 +1,6 @@
 # Cascading and Inheritance
 
-When working with css, you'll often see some rules affecting elements in different ways. Some elements take styles from it's parents, like when you assign an specific font-family to the `body` tag. And some have styles already defined on their own, like a `strong` tag which text is already bold. This happens due to the Cascade an Inheritance rules.
+When working with css, you'll often see some rules affecting elements in different ways. Some elements take styles from their parents, like when you assign an specific font-family to the `body` tag. And some have styles already defined on their own, like a `strong` tag, which text is already bold. This happens due to the Cascade an Inheritance rules.
 
 To grasp these concepts, let's explain them very briefly.
 

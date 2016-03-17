@@ -6,11 +6,13 @@ You can think of floated elements as having their own flow in the container. Tha
 
 As the float value is expected to be applied to block elements, you'll see that it affects the computed value for said property. Meaning that elements declared as inline-block or table-row for example, will be converted to block elements.
 
-Floating elements tend to have some drawbacks if you are not familiar with them. You'll see for example that a floated element may turn its container into a 0x0px box, this is due to the element beign outside of the normal flow of the container. Thankfully we have the clearfix technique to deal with this kind of problems.
+Floating elements tend to have some drawbacks if you are not familiar with them. You'll see for example that a floated element may turn its container into a box without height. This is due to the element beign outside of the normal flow of the container. Thankfully we have the clearfix technique to deal with this kind of problems.
+
+You can read more about this aspect in the [block formatting context section](content/block-formatting-context/what.md)
 
 ## Clear
 
-The clear property determines weather an element can be next to floating elements or if it should be moved down below them, efectivly breaking the floated flow. You can either specify if you want to clear an elements wich has floated elements on it's right or left side. Or in the case in which the element is preceded by both right and left floated elements, you can use the both value.
+The clear property determines whether an element can be next to floating elements or if it should be moved down below them, efectivly breaking the floated flow. You can either specify if you want to clear an elements wich has floated elements on it's right or left side. Or in the case in which the element is preceded by both right and left floated elements, you can use the both value.
 
 ## Clearfix technique
 
@@ -20,7 +22,7 @@ The clear property determines weather an element can be next to floating element
 	  clear: both;
 	}
 
-What this little weird piece of code is that it forces an element to clear for it's children. That means that an element containing floated elements will maintaing it's normal behavior in terms of size and positioning.
+What this little weird piece of code is that it forces an element to clear for its children. That means that an element containing floated elements will maintaing it's normal behavior in terms of size and positioning.
 
 #### Info
 

@@ -29,7 +29,7 @@ What's happening here? How does stacking context affect opacity? The parent's op
 
 A child with `opacity: 1` will be 100% opaque. A child with `opacity:.5` will be 50% opaque (or 50% dimmed). But, the important part is: opaque/dimmed relative to what? **Relative to its parent. That's the stacking context in action**
 
-A child will get as opaque/dimmed as its parent lets it. If a `div` has is `opacity:.5` and its child is `opacity:1`, the child itself will be totally opaque, but its parent is half opaque, so 50% is as opaque as the child will get. It can't be more that 50%, because it cant't escape its stacking context.
+A child will get as opaque/dimmed as its parent allows it. If a `div` has is `opacity:.5` and its child is `opacity:1`, the child itself will be totally opaque, but its parent is half opaque, so 50% is as opaque as the child will get. It can't be more that 50%, because it cant't escape its stacking context.
 
 **Stacking context on z-index**
 
@@ -57,9 +57,9 @@ There are a couple of things happening in these examples. Let's go through all o
 
 `#block1` has only 1 new stacking context and it's created on `span.below` since it's relatively positioned and it has a `z-index` other than `auto`. This means that the `.overlay` (the DOM element, remember it doesn't have its own stacking context) and the `span.below` stacking context are inside the same stacking context (`html` element), so `span.below` can be placed below `.overlay`.
 
-`#block2` has 2 new stacking context: one it's created on `.overlay`, since it has a `transform` property other than `none` and the other one it's created on `span.below` (the same as the previous example). This means that the `span.below` stacking context will be inside the `.overlay`stacking context (because it's inside in the DOM) so the `span.below` stacking context will **never** be able to be placed below the `.overlay`stacking context.
+`#block2` has 2 new stacking context: one it's created on `.animated`, since it has a `transform` property other than `none` and the other one it's created on `span.below` (the same as the previous example). This means that the `span.below` stacking context will be inside the `.overlay`stacking context (because it's inside in the DOM) so the `span.below` stacking context will **never** be able to be placed below the `.overlay`stacking context.
 
-`#block3` has 2 new stacking context: one it's created on `span.below` since it has a `transform` property other than `none` and the other one it's **also** created on `span.below` since it's relatively positioned and it has a `z-index` other than `auto`. But, since both new stacking context and the `.overlay` element belong to the same stacking context (`html` element), they can placed below it.
+`#block3` has 2 new stacking context: one it's created on `animated` since it has a `transform` property other than `none` and the other one it's **also** created on `span.below` since it's relatively positioned and it has a `z-index` other than `auto`. But, since both new stacking context and the `.overlay` element belong to the same stacking context (`html` element), they can placed below it.
 
 ## Credits
 

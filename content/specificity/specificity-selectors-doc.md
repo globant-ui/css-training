@@ -10,8 +10,7 @@ origin, the declaration with the most specific selector will take precedence.
   1. [List the values for each selector](#list-the-values-for-each-selector)
 2. [What is ```!important```?](#what-is-important)
   1. [Why is usually not recommended?](#why-is-usually-not-recommended)
-  2. [When is it recommended?](#when-is-it-recommended)
-  3. [How to override ```!important```](#how-to-override-important)
+  2. [How to override ```!important```](#how-to-override-important)
 2. [What happens if two selectors have the same specificity? Which one is applied?](#what-happens-if-two-selectors-have-the-same-specificity-which-one-is-applied)
 3. [Example](#example)
 4. [Credits](#credits)
@@ -103,7 +102,6 @@ pseudo-elements to be counted, so we put a 3 in the last column.
 
 We now have our result. The specificity for the selector ```body#home div#warning p.message``` can be expressed as: **0,2,1,3**.
 
-![back](/content/specificity/media/TriangleUp.gif) [Index](#index)
 
 ## What is ```!important```?
 
@@ -115,12 +113,6 @@ wherever it is in the declaration list. Although, ```!important``` has nothing t
 Using ```!important``` is bad practice and should be avoided because it makes debugging more difficult by breaking the natural 
 cascading in your stylesheets. When two conflicting declarations with the ```!important``` rule are applied to the same element, the 
 declaration with greater specificity will be applied.
-
-### When is it recommended?
-
-**Inline Styles** should be avoided. As inline style rules always have the highest specificity, the only way to overwrite 
-them within the CSS cascade is to use the ```!important``` statement on the relevant declarations—an approach that creates a 
-maintenance nightmare.
 
 ### How to override ```!important```
 
@@ -138,14 +130,12 @@ table td    {height: 50px !important;} /* 0002 */
 
 3. Rewrite the original rule to avoid the use of ```!important``` altogether.
 
-![back](/content/specificity/media/TriangleUp.gif) [Index](#index)
 
 ## What happens if two selectors have the same specificity? Which one is applied?
 
 If two or more selectors have the same specificity, then, according to the rules of the CSS cascade, the latter specified 
 rule takes precedence.
 
-![back](/content/specificity/media/TriangleUp.gif) [Index](#index)
 
 ## Example:
 
@@ -199,10 +189,8 @@ Finally, let take a look at how the browser read this and the final style is app
 
 ![ejemplo](/content/specificity/media/specificity.png)
 
-![back](/content/specificity/media/TriangleUp.gif) [Index](#index)
 
 ## Credits
 
 Darío Dessaunet <dario.dessaunet@globant.com>
 
-![back](/content/specificity/media/TriangleUp.gif) [Index](#index)

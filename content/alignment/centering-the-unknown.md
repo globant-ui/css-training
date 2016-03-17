@@ -1,6 +1,6 @@
 # Centering the unknown
 
-How to center a container when we don't know its dimensions.
+How to center a container when we don't know its dimensions (without using flexbox).
 
 ## Code
 

@@ -6,4 +6,4 @@ Keep in mind that if the codebase is in production, we cannot do this aggressive
 
 Maybe while some of the team is doing the refactor, the rest of the team is implementing new features or fixing bugs. Do they write new css? Do they modified or add to the old codebase? Ideally, they would add to the new, pretty code. But, for that to be possible, an standard have to be defined for all to follow, and you should do that before anyone has the need to write code.
 
-You have to be aware of all this things before you actually change any code. You can skip all this thinking, but you don't want to be force to consider this things when you already have old and new css and the team doesn't know which direction to go.
+You have to be aware of all this things before you actually change any code. You can skip all this thinking, but you don't want to be forced to consider this things when you already have old and new css and the team doesn't know which direction to go.

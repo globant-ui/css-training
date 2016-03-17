@@ -2,7 +2,7 @@
 
 ## What is it?
 
-In a document, each element is represented as a rectangular box. The box model is the way each of these boxes is described in CSS. This model describes the content of the space taken by an element. Each box has four edges: the margin edge, border edge, padding edge, and content edge.
+In a document, each element is represented as a rectangular box. The box model is the way each of these boxes are described in CSS. This model describes the content of the space taken by an element. Each box has four edges: the margin edge, border edge, padding edge, and content edge.
 
 You can see a graphic representation of the box model here: [http://codepen.io/asainz/pen/ogwXJR](http://codepen.io/asainz/pen/ogwXJR)
 

@@ -81,7 +81,7 @@ You can prefix a name convention to a class, in order to differentiate one anoth
 }
 ```
 
-## Are they useful?
+## Are global scopes useful?
 
 Yes! They are useful, but you have to be cautious about them. One of the most common uses is for reseting or normalizing. For example, maybe you want all of your `li` not to have bullets on the side, or you want the `a` not to have an underline. In this cases, global css are the way to go.
 
