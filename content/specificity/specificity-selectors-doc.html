@@ -1,0 +1,1834 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Specificity | CSS Trainings, Tips and Best Practices</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.1.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../content/box-model/index.html" />
+    
+    
+    <link rel="prev" href="../../content/css-selectors/attribute-selectors.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="1.4" data-basepath="../.." data-revision="Thu Mar 17 2016 10:47:43 GMT-0300 (ART)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="content/beginner-level.html">
+            
+                
+                    <a href="../../content/beginner-level.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Beginner Level
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="content/html-css-basic/index.html">
+            
+                
+                    <a href="../../content/html-css-basic/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        HTML &amp; CSS Basics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="content/html-css-basic/how.html">
+            
+                
+                    <a href="../../content/html-css-basic/how.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        How to create an HTML page
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="content/html-css-basic/doctypes.html">
+            
+                
+                    <a href="../../content/html-css-basic/doctypes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        Doctypes
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="content/html-css-basic/css-rules.html">
+            
+                
+                    <a href="../../content/html-css-basic/css-rules.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.3.</b>
+                        
+                        CSS rules
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="content/css-properties/index.html">
+            
+                
+                    <a href="../../content/css-properties/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        CSS Properties
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="content/css-properties/positioning.html">
+            
+                
+                    <a href="../../content/css-properties/positioning.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.1.</b>
+                        
+                        Position
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="content/css-properties/display.html">
+            
+                
+                    <a href="../../content/css-properties/display.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.2.</b>
+                        
+                        Display
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="content/css-properties/overflow.html">
+            
+                
+                    <a href="../../content/css-properties/overflow.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.3.</b>
+                        
+                        Overflow
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="content/css-properties/content.html">
+            
+                
+                    <a href="../../content/css-properties/content.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.4.</b>
+                        
+                        Content
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="content/css-properties/float.html">
+            
+                
+                    <a href="../../content/css-properties/float.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.5.</b>
+                        
+                        Float
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="content/css-selectors/index.html">
+            
+                
+                    <a href="../../content/css-selectors/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        CSS selector
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="content/css-selectors/all-elements-selector.html">
+            
+                
+                    <a href="../../content/css-selectors/all-elements-selector.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.1.</b>
+                        
+                        All elements selector
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="content/css-selectors/id-class-selectors.html">
+            
+                
+                    <a href="../../content/css-selectors/id-class-selectors.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.2.</b>
+                        
+                        Id and class selectors
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="content/css-selectors/ancestor-selector.html">
+            
+                
+                    <a href="../../content/css-selectors/ancestor-selector.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.</b>
+                        
+                        Ancestor selectors
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="content/css-selectors/direct-ancestor-selector.html">
+            
+                
+                    <a href="../../content/css-selectors/direct-ancestor-selector.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.4.</b>
+                        
+                        Direct ancestor selectors
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="content/css-selectors/comparing-ancestor-selectors.html">
+            
+                
+                    <a href="../../content/css-selectors/comparing-ancestor-selectors.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.5.</b>
+                        
+                        Comparing ancestor selectors
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="content/css-selectors/siblings-selectors.html">
+            
+                
+                    <a href="../../content/css-selectors/siblings-selectors.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.6.</b>
+                        
+                        Siblings selectors
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="content/css-selectors/grouping-selectors.html">
+            
+                
+                    <a href="../../content/css-selectors/grouping-selectors.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.7.</b>
+                        
+                        Grouping selectors
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="content/css-selectors/pseudo-classes.html">
+            
+                
+                    <a href="../../content/css-selectors/pseudo-classes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.8.</b>
+                        
+                        Pseudo classes
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="content/css-selectors/pseudo-elements.html">
+            
+                
+                    <a href="../../content/css-selectors/pseudo-elements.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.9.</b>
+                        
+                        Pseudo elements
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="content/css-selectors/attribute-selectors.html">
+            
+                
+                    <a href="../../content/css-selectors/attribute-selectors.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.10.</b>
+                        
+                        Selectors by attribute
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="content/specificity/specificity-selectors-doc.html">
+            
+                
+                    <a href="../../content/specificity/specificity-selectors-doc.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Specificity
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="content/box-model/index.html">
+            
+                
+                    <a href="../../content/box-model/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Box Model
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="content/box-model/what.html">
+            
+                
+                    <a href="../../content/box-model/what.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.1.</b>
+                        
+                        What is it?
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="content/box-model/box-sizing-differences.html">
+            
+                
+                    <a href="../../content/box-model/box-sizing-differences.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.2.</b>
+                        
+                        Box sizing differences
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="content/css-units/index.html">
+            
+                
+                    <a href="../../content/css-units/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        CSS Units
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="content/css-units/text-units.html">
+            
+                
+                    <a href="../../content/css-units/text-units.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.1.</b>
+                        
+                        Text Units
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="content/css-units/colors.html">
+            
+                
+                    <a href="../../content/css-units/colors.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.2.</b>
+                        
+                        Colors
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="content/alignment/index.html">
+            
+                
+                    <a href="../../content/alignment/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Alignment
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="content/alignment/vertical-centering-techniques.html">
+            
+                
+                    <a href="../../content/alignment/vertical-centering-techniques.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.1.</b>
+                        
+                        Vertical centering techniques
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="content/alignment/centering-the-unknown.html">
+            
+                
+                    <a href="../../content/alignment/centering-the-unknown.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.2.</b>
+                        
+                        Centering the unknown
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="content/layout-beginner/index.html">
+            
+                
+                    <a href="../../content/layout-beginner/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        Layout
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="content/layout-beginner/basic-layout.html">
+            
+                
+                    <a href="../../content/layout-beginner/basic-layout.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.1.</b>
+                        
+                        Basic Layout
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="content/architecture-beginner/index.html">
+            
+                
+                    <a href="../../content/architecture-beginner/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        Architecture
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="content/cascading-and-inheritance/cascading-and-inheritance-doc.html">
+            
+                
+                    <a href="../../content/cascading-and-inheritance/cascading-and-inheritance-doc.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.1.</b>
+                        
+                        Cascading and Inheritance
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="content/architecture-beginner/global-scopes.html">
+            
+                
+                    <a href="../../content/architecture-beginner/global-scopes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.2.</b>
+                        
+                        Global scopes
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="content/reset/reset-vs-normalize-doc.html">
+            
+                
+                    <a href="../../content/reset/reset-vs-normalize-doc.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.3.</b>
+                        
+                        Reset Vs. Normalize
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="content/accessibility/index.html">
+            
+                
+                    <a href="../../content/accessibility/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.</b>
+                        
+                        Accessibility
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="content/accessibility/what.html">
+            
+                
+                    <a href="../../content/accessibility/what.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.1.</b>
+                        
+                        What is it?
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="content/accessibility/how.html">
+            
+                
+                    <a href="../../content/accessibility/how.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.2.</b>
+                        
+                        How to make the web more accesible?
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="content/medium-level.html">
+            
+                
+                    <a href="../../content/medium-level.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Medium Level
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="content/layout-medium/index.html">
+            
+                
+                    <a href="../../content/layout-medium/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Layout
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="content/layout-medium/flexbox.html">
+            
+                
+                    <a href="../../content/layout-medium/flexbox.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.</b>
+                        
+                        Flexbox
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+            <span><b>2.1.2.</b> Flexbox layouts</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="content/layout-medium/flexbox/sticky-footer.html">
+            
+                
+                    <a href="../../content/layout-medium/flexbox/sticky-footer.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.1.</b>
+                        
+                        Sticky footer
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="content/layout-medium/flexbox/centering-the-unknown.html">
+            
+                
+                    <a href="../../content/layout-medium/flexbox/centering-the-unknown.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.2.</b>
+                        
+                        Centering the unknown
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="content/layout-medium/flexbox/boxes.html">
+            
+                
+                    <a href="../../content/layout-medium/flexbox/boxes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.3.</b>
+                        
+                        Boxes
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.4" data-path="content/layout-medium/flexbox/accordion-like.html">
+            
+                
+                    <a href="../../content/layout-medium/flexbox/accordion-like.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.4.</b>
+                        
+                        Accordion-like
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.5" data-path="content/layout-medium/flexbox/fixed-sidebar-fluid-center.html">
+            
+                
+                    <a href="../../content/layout-medium/flexbox/fixed-sidebar-fluid-center.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.5.</b>
+                        
+                        Fixed sidebars with fluid center
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" >
+            
+            <span><b>2.1.3.</b> Media queries layouts</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="content/layout-medium/media-queries/boxes.html">
+            
+                
+                    <a href="../../content/layout-medium/media-queries/boxes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.3.1.</b>
+                        
+                        Boxes
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="content/components/index.html">
+            
+                
+                    <a href="../../content/components/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Components
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="content/components/what.html">
+            
+                
+                    <a href="../../content/components/what.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.1.</b>
+                        
+                        What are they?
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="content/components/think-of.html">
+            
+                
+                    <a href="../../content/components/think-of.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.</b>
+                        
+                        How can i think of components?
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="content/components/real-examples.html">
+            
+                
+                    <a href="../../content/components/real-examples.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.3.</b>
+                        
+                        Real life examples
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="content/architecture-medium/index.html">
+            
+                
+                    <a href="../../content/architecture-medium/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Architecture
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="content/architecture-medium/oocss/what.html">
+            
+                
+                    <a href="../../content/architecture-medium/oocss/what.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        OOCSS
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="content/architecture-medium/bem/modal.html">
+            
+                
+                    <a href="../../content/architecture-medium/bem/modal.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.2.</b>
+                        
+                        BEM
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="content/architecture-medium/smacss/smacss.html">
+            
+                
+                    <a href="../../content/architecture-medium/smacss/smacss.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.3.</b>
+                        
+                        SMACSS
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="content/stacking-context/what.html">
+            
+                
+                    <a href="../../content/stacking-context/what.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Stacking context
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="content/block-formatting-context/what.html">
+            
+                
+                    <a href="../../content/block-formatting-context/what.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Block formatting context
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="content/vertical-rhythm/what.html">
+            
+                
+                    <a href="../../content/vertical-rhythm/what.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Vertical rhythm
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="content/advanced-level.html">
+            
+                
+                    <a href="../../content/advanced-level.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Advanced Level
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="content/preprocessors/index.html">
+            
+                
+                    <a href="../../content/preprocessors/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Preprocessors
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="content/preprocessors/sass.html">
+            
+                
+                    <a href="../../content/preprocessors/sass.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                        SASS
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="content/preprocessors/less.html">
+            
+                
+                    <a href="../../content/preprocessors/less.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.2.</b>
+                        
+                        LESS
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="content/preprocessors/compass.html">
+            
+                
+                    <a href="../../content/preprocessors/compass.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.</b>
+                        
+                        COMPASS
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="content/grids/index.html">
+            
+                
+                    <a href="../../content/grids/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Grids
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="content/grids/what.html">
+            
+            <span><b>3.2.1.</b> What are they?</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="content/grids/bootstrap.html">
+            
+                
+                    <a href="../../content/grids/bootstrap.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.2.</b>
+                        
+                        Grids with bootstrap
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="content/grids/susy.html">
+            
+                
+                    <a href="../../content/grids/susy.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.3.</b>
+                        
+                        Grids with susy
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="content/grids/custom.html">
+            
+                
+                    <a href="../../content/grids/custom.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.4.</b>
+                        
+                        Custom grids
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="content/refactor/index.html">
+            
+                
+                    <a href="../../content/refactor/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        How to face a refactor?
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="content/refactor/when.html">
+            
+                
+                    <a href="../../content/refactor/when.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.1.</b>
+                        
+                        When do i need a refactor?
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="content/refactor/take-into-account.html">
+            
+                
+                    <a href="../../content/refactor/take-into-account.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.</b>
+                        
+                        What do i need to take into account before start changing code?
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="content/refactor/standard.html">
+            
+                
+                    <a href="../../content/refactor/standard.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.3.</b>
+                        
+                        Defining an standard
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.4" data-path="content/refactor/modularizing.html">
+            
+                
+                    <a href="../../content/refactor/modularizing.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.</b>
+                        
+                        Modularizing the app
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.5" data-path="content/refactor/old-new-coexist.html">
+            
+                
+                    <a href="../../content/refactor/old-new-coexist.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.5.</b>
+                        
+                        How can you make the old css and new css coexist?
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.6" data-path="content/refactor/where-to-start.html">
+            
+                
+                    <a href="../../content/refactor/where-to-start.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.6.</b>
+                        
+                        Where do i start?
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="content/performance/index.html">
+            
+                
+                    <a href="../../content/performance/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Performance
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" data-path="content/performance/reflow.html">
+            
+                
+                    <a href="../../content/performance/reflow.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.1.</b>
+                        
+                        Minimizing browser reflow
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >CSS Trainings, Tips and Best Practices</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="specificity-on-selectors">Specificity on selectors.</h1>
+<p>Specificity is a mechanism within the CSS cascade that aids conflict resolution. The concept of specificity states that 
+when two or more declarations that apply to the same element, and set the same property, have the same importance and 
+origin, the declaration with the most specific selector will take precedence.</p>
+<h2 id="index">Index</h2>
+<ol>
+<li><a href="#how-is-calculated">How is calculated?</a><ol>
+<li><a href="#list-the-values-for-each-selector">List the values for each selector</a></li>
+</ol>
+</li>
+<li><a href="#what-is-important">What is <code>!important</code>?</a><ol>
+<li><a href="#why-is-usually-not-recommended">Why is usually not recommended?</a></li>
+<li><a href="#how-to-override-important">How to override <code>!important</code></a></li>
+</ol>
+</li>
+<li><a href="#what-happens-if-two-selectors-have-the-same-specificity-which-one-is-applied">What happens if two selectors have the same specificity? Which one is applied?</a></li>
+<li><a href="#example">Example</a></li>
+<li><a href="#credits">Credits</a></li>
+</ol>
+<h2 id="how-is-calculated">How is calculated?</h2>
+<p>Here&#x2019;s a simplified description of the process by which the specificity of the selectors of two or more declarations is compared:</p>
+<ol>
+<li><p>If one declaration is from a style attribute, rather than a rule with a selector (an inline style), it has the highest 
+specificity. If none of the declarations are inline, proceed to step two.</p>
+</li>
+<li><p>Count the ID selectors. The declaration with the highest count has the highest specificity. If two or more have the same 
+number of ID selectors, or they all have zero ID selectors, proceed to step three.</p>
+</li>
+<li><p>Count the class selectors (for example, .test), attribute selectors (for example, [type=&quot;submit&quot;]), and pseudo-classes (for 
+example, :hover). The declaration with the highest total has the highest specificity. If two or more have the same total, or 
+they all have totals of zero, proceed to step four.</p>
+</li>
+<li><p>Count the element type selectors (for example div) and pseudo-elements (for example, :first-letter). The declaration with 
+the highest total has the highest specificity.</p>
+</li>
+</ol>
+<p>Note: The universal selector, <code>*</code>, and the child combinator, <code>&gt;</code> don&#x2019;t have any specificity at all; they&#x2019;re simply 
+ignored in all calculations. This is true for all combinators, which you can treat as though they had a specificity of zero, 
+as they will make no difference to your calculation. </p>
+<h3 id="list-the-values-for-each-selector">List the values for each selector.</h3>
+<p>Let&#x2019;s try and break down each part of the calculation procedure so that it&#x2019;s more understandable. </p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inline Style</td>
+<td>IDs</td>
+<td>Classes, Attributes, and Pseudo-classes</td>
+<td>Element Types and Pseudo-elements</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>First step:</em></strong> Calculate the value for <strong>Inline Style</strong>. If the style rule is specified within the 
+element&#x2019;s HTML style attribute, column <strong>A</strong> should equal 1; otherwise, it should equal 0. In fact, this 
+is the only case where there is a value in column <strong>A</strong>.</p>
+<p>Here&#x2019;s an example of such a style rule:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color:red;&quot;</span>&gt;</span>Red Text<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Inline Style</th>
+<th>IDs</th>
+<th>Classes, Attributes, and Pseudo-classes</th>
+<th>Element Types and Pseudo-elements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>As you can see, an inline style rule will always have a specificity of 1,0,0,0&#x2014;the highest level of specificity.</p>
+<p>For rules other than inline styles, we need to calculate columns <strong>B</strong>, <strong>C</strong>, and <strong>D</strong>. Let&#x2019;s run through a full calculation 
+for the following rule:</p>
+<pre><code class="lang-css"><span class="hljs-tag">body</span><span class="hljs-id">#home</span> <span class="hljs-tag">div</span><span class="hljs-id">#warning</span> <span class="hljs-tag">p</span><span class="hljs-class">.message</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+<span class="hljs-rule">}</span></span>
+</code></pre>
+<p>Since this isn&#x2019;t an inline style, we start off with a 0 in the first column:</p>
+<table>
+<thead>
+<tr>
+<th>Inline Style</th>
+<th>IDs</th>
+<th>Classes, Attributes, and Pseudo-classes</th>
+<th>Element Types and Pseudo-elements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Second step:</em></strong> Calculate the value for column <strong>B</strong>, we count the number of ID selectors in the selector. In our selector, 
+<code>body#home div#warning p.message</code>, there are <code>#home</code> and <code>#warning</code>, column <strong>B</strong> is equal to 2.</p>
+<table>
+<thead>
+<tr>
+<th>Inline Style</th>
+<th>IDs</th>
+<th>Classes, Attributes, and Pseudo-classes</th>
+<th>Element Types and Pseudo-elements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>?</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Third step:</em></strong> Calculate the value for column <strong>C</strong>, counting the number of class selectors, attribute selectors, and pseudo-classes 
+in the selector. There&#x2019;s one class selector, <code>.message</code>, so, column <strong>C</strong> is equal to 1.</p>
+<table>
+<thead>
+<tr>
+<th>Inline Style</th>
+<th>IDs</th>
+<th>Classes, Attributes, and Pseudo-classes</th>
+<th>Element Types and Pseudo-elements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p><em>Attribute Selectors for IDs:</em> Note that <code>[id=&quot;foo&quot;]</code> is not equivalent to <code>#foo</code>. There&#x2019;s a significant difference in their 
+levels of specificity.</p>
+<p><strong><em>Fourth step:</em></strong> For column <strong>D</strong>, we count the number of element type selectors and pseudo-elements in the selector. In our example 
+selector, <code>body#home div#warning p.message</code>, there are three: <code>body</code>, <code>div</code>, and <code>p</code>. There are no 
+pseudo-elements to be counted, so we put a 3 in the last column.</p>
+<table>
+<thead>
+<tr>
+<th>Inline Style</th>
+<th>IDs</th>
+<th>Classes, Attributes, and Pseudo-classes</th>
+<th>Element Types and Pseudo-elements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>We now have our result. The specificity for the selector <code>body#home div#warning p.message</code> can be expressed as: <strong>0,2,1,3</strong>.</p>
+<h2 id="what-is-important">What is <code>!important</code>?</h2>
+<p>When an <code>!important</code> rule is used on a style declaration, this declaration overrides any other declaration made in the CSS, 
+wherever it is in the declaration list. Although, <code>!important</code> has nothing to do with specificity.</p>
+<h3 id="why-is-usually-not-recommended">Why is usually not recommended?</h3>
+<p>Using <code>!important</code> is bad practice and should be avoided because it makes debugging more difficult by breaking the natural 
+cascading in your stylesheets. When two conflicting declarations with the <code>!important</code> rule are applied to the same element, the 
+declaration with greater specificity will be applied.</p>
+<h3 id="how-to-override-important">How to override <code>!important</code></h3>
+<ol>
+<li>Simply add another CSS rule with <code>!important</code>, and either give the selector a higher specificity (adding an additional tag, id 
+or class to the selector), or add a CSS rule with the same selector at a later point than the existing one (in a tie, the last 
+one defined wins).</li>
+</ol>
+<pre><code class="lang-css"><span class="hljs-tag">table</span> <span class="hljs-tag">td</span>    <span class="hljs-rules">{<span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">50px</span> <span class="hljs-important">!important</span></span></span>;<span class="hljs-rule">}</span></span> <span class="hljs-comment">/* 0002 */</span>
+<span class="hljs-class">.myTable</span> <span class="hljs-tag">td</span> <span class="hljs-rules">{<span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">50px</span> <span class="hljs-important">!important</span></span></span>;<span class="hljs-rule">}</span></span> <span class="hljs-comment">/* 0102 */</span>
+<span class="hljs-id">#myTable</span> <span class="hljs-tag">td</span> <span class="hljs-rules">{<span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">50px</span> <span class="hljs-important">!important</span></span></span>;<span class="hljs-rule">}</span></span> <span class="hljs-comment">/* 0110 */</span>
+</code></pre>
+<ol>
+<li><p>Add the same selector after the existing one.</p>
+</li>
+<li><p>Rewrite the original rule to avoid the use of <code>!important</code> altogether.</p>
+</li>
+</ol>
+<h2 id="what-happens-if-two-selectors-have-the-same-specificity-which-one-is-applied">What happens if two selectors have the same specificity? Which one is applied?</h2>
+<p>If two or more selectors have the same specificity, then, according to the rules of the CSS cascade, the latter specified 
+rule takes precedence.</p>
+<h2 id="example">Example:</h2>
+<p>Let&#x2019;s consider a crazy situation where more than half a dozen color declarations for the same <code>p</code> element have the same 
+levels of importance and origins. Which color would the browser apply to the element?</p>
+<pre><code class="lang-css"><span class="hljs-tag">p</span><span class="hljs-class">.message</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> green</span></span>;
+<span class="hljs-rule">}</span></span>
+<span class="hljs-id">#home</span> <span class="hljs-id">#warning</span> <span class="hljs-tag">p</span><span class="hljs-class">.message</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> yellow</span></span>;
+<span class="hljs-rule">}</span></span>
+<span class="hljs-id">#warning</span> <span class="hljs-tag">p</span><span class="hljs-class">.message</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> white</span></span>;
+<span class="hljs-rule">}</span></span>
+<span class="hljs-tag">body</span><span class="hljs-id">#home</span> <span class="hljs-tag">div</span><span class="hljs-id">#warning</span> <span class="hljs-tag">p</span><span class="hljs-class">.message</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> blue</span></span>;
+<span class="hljs-rule">}</span></span>
+<span class="hljs-tag">p</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> teal</span></span>;
+<span class="hljs-rule">}</span></span>
+* <span class="hljs-tag">body</span><span class="hljs-id">#home</span>&gt;<span class="hljs-tag">div</span><span class="hljs-id">#warning</span> <span class="hljs-tag">p</span><span class="hljs-class">.message</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+<span class="hljs-rule">}</span></span>
+<span class="hljs-id">#warning</span> <span class="hljs-tag">p</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> black</span></span>;
+<span class="hljs-rule">}</span></span>
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Inline Style</th>
+<th>IDs</th>
+<th>Classes, Attributes, and Pseudo-classes</th>
+<th>Element Types and Pseudo-elements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>body#home div#warning p.message</code></td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td><code>* body#home&gt;div#warning p.message</code></td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td><code>#home #warning p.message</code></td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>#warning p.message</code></td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>#warning p</code></td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>p.message</code></td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>p</code></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>The results have been ordered according to specificity&#x2014;the highest are at the top, and the lowest are at the bottom. As you 
+can see, the top two selectors have exactly the same specificity, despite the extra universal selector and combinator in one 
+of them. In this case, they tie for specificity and the one that appears last in the style sheet will be the winner. If you 
+look at the original style sheet source above, the red color will be applied to the <code>p</code> element.</p>
+<p>You can see from table that the selector <code>p.message</code> has a lower specificity than the selector <code>#warning p</code>. This is 
+a common cause of head scratching among those new to CSS, who often think that a class selector will be specific enough to 
+match an element in all cases.</p>
+<p>Finally, let take a look at how the browser read this and the final style is applied with an image from firebug.</p>
+<p><img src="media/specificity.png" alt="ejemplo"></p>
+<h2 id="credits">Credits</h2>
+<p>Dar&#xED;o Dessaunet <a href="mailto:dario.dessaunet@globant.com" target="_blank">dario.dessaunet@globant.com</a></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../content/css-selectors/attribute-selectors.html" class="navigation navigation-prev " aria-label="Previous page: Selectors by attribute"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../content/box-model/index.html" class="navigation navigation-next " aria-label="Next page: Box Model"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
